@@ -15,7 +15,6 @@ function Nav({ isCurrentPackage }) {
     }
   };
 
-  //This useEffect will be called everytime the user Scrolls
   useEffect(() => {
     window.addEventListener("scroll", transitionNavBar);
 
@@ -23,14 +22,13 @@ function Nav({ isCurrentPackage }) {
   }, []);
 
   return (
-    //Back tick is used for string entapulation
     <div className={`nav ${show && "nav__black"}`}>
       <div className="nav__contents">
         <img
           onClick={() =>
             isCurrentPackage
               ? history.push("/")
-              : history.push("/profile", alert("⚠️Subscribe First"))
+              : history.push("/profile", alert("Subscribe First"))
           }
           className="nav__logo"
           src={logo}

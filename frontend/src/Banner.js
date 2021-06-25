@@ -94,7 +94,7 @@ function Banner() {
       <div className="img__container">
         <img
           className="img__banner"
-          src="https://dailytimes.com.pk/assets/uploads/2018/03/10/PSL.jpg"
+          src="https://www.sportsmonks.com/wp-content/uploads/2019/12/pakistan-super-league-2020-teams-and-squad-1280x720.jpg"
           alt="Banner"
         />
       </div>
